@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="sr-Latn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Nemanjica Coaching · Personalni trener, Subotica</title>
+  <meta name="description" content="Personalni i polupersonalni treninzi u Teretani Fitnes Centar u Subotici. Plan treninga i ishrane i online, uz vođenje suplementacije. Pošalji START u DM.">
+  <!-- DEMO: ukloniti noindex kad sajt ide uživo -->
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0A0E12">
+
+  <!-- OG: posle deploy-a upisati apsolutni URL (https://domen/images/og-image.jpg) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="sr_RS">
+  <meta property="og:site_name" content="Nemanjica Coaching">
+  <meta property="og:title" content="Planovi koji pomažu tvom telu · Nemanjica Coaching">
+  <meta property="og:description" content="Personalni trener u Subotici. Treninzi uživo u Teretani Fitnes Centar, planovi treninga i ishrane i online.">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Nemanja na treningu sa bučicom, uz natpis Planovi koji pomažu tvom telu">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230A0E12'/%3E%3Cpath d='M14 50V14h9l18 22V14h9v36h-9L23 28v22z' fill='%23C6FC3A'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600&family=Barlow:wght@400;500;600&display=swap">
+  <link rel="preload" as="image" href="images/nemanja-hero.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip" href="#main">Preskoči na sadržaj</a>
+
+  <!-- PROVERITI: da li ponuda „nova mesta" još važi -->
+  <p class="notice"><span class="notice__dot" aria-hidden="true"></span>Otvorena nova mesta za personalne treninge</p>
+
+  <header class="nav" data-nav>
+    <div class="nav__bar wrap">
+      <a class="logo" href="#top" aria-label="Nemanjica Coaching, na vrh stranice">
+        <span class="logo__name">Nemanjica</span>
+        <span class="logo__sub">Coaching</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Glavna navigacija">
+        <a href="#proces">Proces</a>
+        <a href="#klijenti">Klijenti</a>
+      </nav>
+
+      <a class="btn btn--lime btn--sm nav__cta" href="https://ig.me/m/nemanjica_coaching" target="_blank" rel="noopener">
+        Pošalji START
+      </a>
+
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" data-menu-toggle>
+        <span class="sr-only">Meni</span>
+        <span class="nav__toggle-line" aria-hidden="true"></span>
+        <span class="nav__toggle-line" aria-hidden="true"></span>
+      </button>
+    </div>
+
+    <div class="menu" id="menu" hidden data-menu>
+      <nav class="menu__links wrap" aria-label="Mobilna navigacija">
+        <a href="#proces">Proces</a>
+        <a href="#klijenti">Klijenti</a>
+        <a class="btn btn--lime btn--block" href="https://ig.me/m/nemanjica_coaching" target="_blank" rel="noopener">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3 10 14"/><path d="m21 3-7 18-4-7-7-4z"/></svg>
+          Pošalji START u DM
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- 1. HERO -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__grid wrap">
+        <!-- Slika je 720×960: na desktopu ide u stub pored teksta, ne preko celog ekrana -->
+        <figure class="hero__media">
+          <img class="hero__img"
+               src="images/nemanja-hero.jpg"
+               width="720" height="960"
+               alt="Nemanja na treningu, pregib sa bučicom"
+               fetchpriority="high" decoding="async">
+        </figure>
+
+        <div class="hero__content">
+          <h1 class="hero__title" id="hero-title">
+            <span class="hero__line"><span>Planovi</span></span>
+            <span class="hero__line"><span>koji pomažu</span></span>
+            <span class="hero__line"><span class="hl">tvom telu</span></span>
+          </h1>
+          <p class="hero__lead" data-hero>
+            Personalni i polupersonalni treninzi u Teretani Fitnes Centar.
+            Plan treninga i ishrane dobijaš i online, gde god da treniraš.
+          </p>
+          <div class="hero__actions" data-hero data-hero-cta>
+            <a class="btn btn--lime" href="https://ig.me/m/nemanjica_coaching" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3 10 14"/><path d="m21 3-7 18-4-7-7-4z"/></svg>
+              Pošalji START u DM
+            </a>
+            <a class="btn btn--ghost" href="#proces">
+              Pogledaj kako radim
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14"/><path d="m6 13 6 6 6-6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__facts wrap" data-hero>
+        <ul class="facts" aria-label="Ukratko">
+          <li class="facts__item">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="m8.5 13.8-1.5 7.2 5-2.5 5 2.5-1.5-7.2"/></svg>
+            Sertifikat HFS Akademija
+          </li>
+          <li class="facts__item">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Teretana Fitnes Centar, Subotica
+          </li>
+          <li class="facts__item">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+            13K+ pratilaca
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 2. PROCES RADA -->
+    <!-- PROCES: potvrditi tačne korake sa Nemanjom -->
+    <section class="section process" id="proces" aria-labelledby="proces-title">
+      <div class="wrap">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">Proces rada</p>
+          <h2 class="section-title" id="proces-title">Kako radimo</h2>
+          <p class="section-lead">Bez nagađanja i bez šablona. Uvek znaš šta radiš danas, zašto to radiš i šta je sledeći korak.</p>
+        </header>
+
+        <ol class="steps" data-steps>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">01</span>
+            <span class="step__mark" aria-hidden="true"></span>
+            <h3 class="step__title">Pošalji START</h3>
+            <p class="step__text">Javi se u DM na Instagramu. Jedna reč je dovoljna za početak.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">02</span>
+            <span class="step__mark" aria-hidden="true"></span>
+            <h3 class="step__title">Upoznavanje</h3>
+            <p class="step__text">Razgovaramo o cilju, iskustvu, rasporedu i eventualnim povredama.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">03</span>
+            <span class="step__mark" aria-hidden="true"></span>
+            <h3 class="step__title">Tvoj plan</h3>
+            <p class="step__text">Trening i ishrana prilagođeni tebi, uz vođenje suplementacije.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">04</span>
+            <span class="step__mark" aria-hidden="true"></span>
+            <h3 class="step__title">Trening</h3>
+            <p class="step__text">Uživo u Teretani Fitnes Centar ili samostalno, po planu.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">05</span>
+            <span class="step__mark" aria-hidden="true"></span>
+            <h3 class="step__title">Praćenje i korekcije</h3>
+            <p class="step__text">Plan se menja kako ti napreduješ.</p>
+          </li>
+        </ol>
+
+        <div class="services">
+          <h3 class="services__title" data-reveal>Kako možeš da treniraš sa mnom</h3>
+          <div class="services__grid">
+            <article class="service" data-reveal>
+              <p class="service__tag">Uživo · jedan na jedan</p>
+              <h4 class="service__name">Personalni treninzi</h4>
+              <p class="service__text">Ceo trening radimo zajedno. Ja vodim, ti treniraš.</p>
+              <ul class="checks">
+                <li>Teretana Fitnes Centar, Subotica</li>
+                <li>Pravilno izvođenje svake vežbe</li>
+                <li>Plan prilagođen tvom cilju</li>
+              </ul>
+              <a class="btn btn--outline btn--block" href="https://ig.me/m/nemanjica_coaching" target="_blank" rel="noopener">
+                Pošalji START
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+              </a>
+            </article>
+
+            <!-- PROVERITI: format polupersonalnih treninga (par / mala grupa) -->
+            <article class="service" data-reveal>
+              <p class="service__tag">Uživo · u paru ili maloj grupi</p>
+              <h4 class="service__name">Polupersonalni treninzi</h4>
+              <p class="service__text">Isti nadzor i ista pažnja na tehniku, u manjoj grupi.</p>
+              <ul class="checks">
+                <li>Teretana Fitnes Centar, Subotica</li>
+                <li>Kontrola tehnike na svakoj seriji</li>
+                <li>Trening uz društvo, bez gubljenja fokusa</li>
+              </ul>
+              <a class="btn btn--outline btn--block" href="https://ig.me/m/nemanjica_coaching" target="_blank" rel="noopener">
+                Pošalji START
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+              </a>
+            </article>
+
+            <article class="service" data-reveal>
+              <p class="service__tag">Online · gde god da treniraš</p>
+              <h4 class="service__name">Plan treninga i ishrane</h4>
+              <p class="service__text">Za tebe koji treniraš sam, a želiš jasan plan i nekoga ko ga prati.</p>
+              <ul class="checks">
+                <li>Plan treninga prema cilju i rasporedu</li>
+                <li>Plan ishrane koji možeš da ispratiš</li>
+                <li>Vođenje suplementacije</li>
+              </ul>
+              <a class="btn btn--outline btn--block" href="https://ig.me/m/nemanjica_coaching" target="_blank" rel="noopener">
+                Pošalji START
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+              </a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. KLIJENTI -->
+    <section class="section clients" id="klijenti" aria-labelledby="klijenti-title">
+      <div class="wrap">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">Klijenti</p>
+          <h2 class="section-title" id="klijenti-title">Klijenti na delu</h2>
+          <p class="section-lead">Pravi treninzi u Teretani Fitnes Centar. Tehnika, tempo i fokus, serija po serija.</p>
+        </header>
+      </div>
+
+      <!--
+        SNIMCI KLIJENATA: ubaci images/klijent-1.jpg … klijent-6.jpg (vertikalno, 9:16).
+        Opciono i klijent-N.mp4 (bez zvuka, kratko) — pušta se u petlji kad je kartica vidljiva.
+        Dok fajl ne postoji, prikazuje se tamni placeholder. Oznake uskladiti sa stvarnim snimcima.
+      -->
+      <div class="reels-scroller">
+        <ul class="reels wrap" aria-label="Snimci klijenata sa treninga">
+          <li class="reel" data-media="images/klijent-1" data-reveal>
+            <div class="reel__frame">
+              <div class="reel__ph" aria-hidden="true">
+                <span class="reel__bars"><i></i><i></i><i></i></span>
+                <span class="reel__play"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span>
+                <span class="reel__ph-text">[Snimak klijenta]</span>
+              </div>
+            </div>
+            <p class="reel__label"><span class="reel__tag">Personalni trening</span>Super set grudi</p>
+          </li>
+          <li class="reel" data-media="images/klijent-2" data-reveal>
+            <div class="reel__frame">
+              <div class="reel__ph" aria-hidden="true">
+                <span class="reel__bars"><i></i><i></i><i></i></span>
+                <span class="reel__play"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span>
+                <span class="reel__ph-text">[Snimak klijenta]</span>
+              </div>
+            </div>
+            <p class="reel__label"><span class="reel__tag">Personalni trening</span>Ruke</p>
+          </li>
+          <li class="reel" data-media="images/klijent-3" data-reveal>
+            <div class="reel__frame">
+              <div class="reel__ph" aria-hidden="true">
+                <span class="reel__bars"><i></i><i></i><i></i></span>
+                <span class="reel__play"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span>
+                <span class="reel__ph-text">[Snimak klijenta]</span>
+              </div>
+            </div>
+            <p class="reel__label"><span class="reel__tag">40+</span>Konstantan progres</p>
+          </li>
+          <li class="reel" data-media="images/klijent-4" data-reveal>
+            <div class="reel__frame">
+              <div class="reel__ph" aria-hidden="true">
+                <span class="reel__bars"><i></i><i></i><i></i></span>
+                <span class="reel__play"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span>
+                <span class="reel__ph-text">[Snimak klijenta]</span>
+              </div>
+            </div>
+            <p class="reel__label"><span class="reel__tag">Personalni trening</span>Leđa</p>
+          </li>
+          <li class="reel" data-media="images/klijent-5" data-reveal>
+            <div class="reel__frame">
+              <div class="reel__ph" aria-hidden="true">
+                <span class="reel__bars"><i></i><i></i><i></i></span>
+                <span class="reel__play"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span>
+                <span class="reel__ph-text">[Snimak klijenta]</span>
+              </div>
+            </div>
+            <p class="reel__label"><span class="reel__tag">Polupersonalni trening</span>Noge</p>
+          </li>
+          <li class="reel" data-media="images/klijent-6" data-reveal>
+            <div class="reel__frame">
+              <div class="reel__ph" aria-hidden="true">
+                <span class="reel__bars"><i></i><i></i><i></i></span>
+                <span class="reel__play"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span>
+                <span class="reel__ph-text">[Snimak klijenta]</span>
+              </div>
+            </div>
+            <p class="reel__label"><span class="reel__tag">Personalni trening</span>Ramena</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrap">
+        <!-- UTISAK: ubaciti stvaran utisak klijenta (uz dozvolu), bez izmišljanja -->
+        <figure class="quote" data-reveal>
+          <svg class="quote__mark" viewBox="0 0 48 40" aria-hidden="true"><path d="M0 40V22C0 9.5 6.5 2 19 0l2 6C13.5 8 10.5 12 10 18h9v22zm27 0V22C27 9.5 33.5 2 46 0l2 6c-7.5 2-10.5 6-11 12h9v22z"/></svg>
+          <blockquote class="quote__text"><p>[Utisak klijenta — ubaciti stvaran]</p></blockquote>
+          <figcaption class="quote__by">[Potpis klijenta, uz njegovu dozvolu]</figcaption>
+        </figure>
+
+        <div class="final" data-final>
+          <h2 class="final__title" data-reveal>Sledeći si<br> <span class="hl">ti.</span></h2>
+          <p class="final__text" data-reveal>Pošalji START u DM i krećemo od upoznavanja.</p>
+
+          <a class="dm" href="https://ig.me/m/nemanjica_coaching" target="_blank" rel="noopener" aria-label="Pošalji START u DM na Instagramu" data-reveal data-dm>
+            <span class="dm__to" aria-hidden="true">Poruka za @nemanjica_coaching</span>
+            <span class="dm__row" aria-hidden="true">
+              <span class="dm__field">
+                <span class="dm__text" data-dm-text>START</span><span class="dm__caret"></span>
+              </span>
+              <span class="dm__send">
+                <span>Pošalji<span class="dm__send-long"> START u DM</span></span>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3 10 14"/><path d="m21 3-7 18-4-7-7-4z"/></svg>
+              </span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 4. FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner wrap">
+      <a class="logo" href="#top" aria-label="Nemanjica Coaching, na vrh stranice">
+        <span class="logo__name">Nemanjica</span>
+        <span class="logo__sub">Coaching</span>
+      </a>
+      <ul class="footer__list">
+        <li>
+          <a href="https://www.instagram.com/nemanjica_coaching/" target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+            @nemanjica_coaching
+          </a>
+        </li>
+        <li>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+          Teretana Fitnes Centar, Subotica
+        </li>
+      </ul>
+      <!-- KONTAKT: zameniti link svojim kontaktom ako treba -->
+      <p class="footer__credit">Demo · izrada: <a href="https://branko8900.github.io/" target="_blank" rel="noopener">Branko</a></p>
+    </div>
+  </footer>
+
+  <div class="dock" data-dock aria-hidden="true">
+    <a class="btn btn--lime btn--block" href="https://ig.me/m/nemanjica_coaching" target="_blank" rel="noopener" tabindex="-1">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3 10 14"/><path d="m21 3-7 18-4-7-7-4z"/></svg>
+      Pošalji START
+    </a>
+  </div>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
